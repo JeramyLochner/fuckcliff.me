@@ -96,7 +96,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+span a {
+    unicode-bidi: embed;  
+}
 
 
 
@@ -288,3 +290,9 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+
+
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+.amiri{font-family: 'Amiri', serif;}
+.amiri{font-family: 'Amiri', serif;}
