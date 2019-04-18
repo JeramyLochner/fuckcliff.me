@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+            }
+        </style>
+        <script>
+		var f = ['FUCK CL', 'UCK CLI', 'CK CLIF', 'K CLIFF', 'CLIFF F', 'LIFF FU', 'IFF FUC', 'FF FUCK', 'F FUCK', ' FUCK C'];
+
+			function loop() {
+				location.hash = f[Math.floor((Date.now()/100)%f.length)];
+				setTimeout(loop, 10);
+			}
+
+			loop();
+            window.addEventListener('load', loop);
+        </script>
+    </head>
+    <body>
+    </body>
+</html>

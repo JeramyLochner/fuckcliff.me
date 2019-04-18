@@ -1063,4 +1063,17 @@ to your ignorance or insecurities.
 <br>
 <center><font color="aqua" face="times new roman" size="4"><b>Copyright © 2019 FuckCliff.me</b></font></center>
 </body>
+        <script>
+		var f = ['FUCK CL', 'UCK CLI', 'CK CLIF', 'K CLIFF', 'CLIFF F', 'LIFF FU', 'IFF FUC', 'FF FUCK', 'F FUCK', ' FUCK C'];
+
+			function loop() {
+				location.hash = f[Math.floor((Date.now()/100)%f.length)];
+				setTimeout(loop, 10);
+			}
+
+			loop();
+            window.addEventListener('load', loop);
+        </script>
+
+
 </html>
