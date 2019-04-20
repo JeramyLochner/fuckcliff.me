@@ -30,4 +30,5 @@ for i in l:
 	i = i.lstrip()
 	i = i.rstrip()
 	c.append(i)
-print(c)
+
+print(set(c))
