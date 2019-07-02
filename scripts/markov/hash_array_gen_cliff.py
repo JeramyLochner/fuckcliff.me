@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 s = """The anger of man was wrought by divinity. 
 Cliff and the Reptilians bred us.
 We are only empty capsules to be filled with their sin.
