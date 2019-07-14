@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",
-    "export": "sapper export --legacy",
+    "export": "sapper export",
     "start": "node __sapper__/build",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "compression": "^1.7.1",
+    "express": "^4.17.1",
     "polka": "^0.5.0",
     "sirv": "^0.4.0"
   },
