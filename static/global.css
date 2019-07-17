@@ -1,63 +1,101 @@
 html, body {
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 body {
-	color: #333;
-	margin: 0;
-	box-sizing: border-box;
-	font-size: 100%;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;*/
-	font-family: Oswald, Verdana, "Open Sans", Roboto, Lato;
+  color: #333;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: Oswald, Verdana, "Open Sans", Roboto, Lato;
 }
 
 a {
-	color: rgb(0,100,200);
-	text-decoration: none;
+  color: rgb(0,100,200);
+  text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 a:visited {
-	color: rgb(0,80,160);
+  color: rgb(0,80,160);
 }
 
 label {
-	display: block;
+  display: block;
 }
 
 input, button, select, textarea {
-/*	font-family: inherit;
-	font-size: inherit;*/
-	padding: 0.4em;
-	margin: 0 0 0.5em 0;
-	box-sizing: border-box;
-	border: 1px solid #ccc;
-	border-radius: 2px;
+  font-family: inherit;
+  font-size: inherit;*/
+  padding: 0.4em;
+  margin: 0 0 0.5em 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
 }
 
 input:disabled {
-	color: #ccc;
+  color: #ccc;
 }
 
 input[type="range"] {
-	height: 0;
+  height: 0;
 }
 
 button {
-	color: #333;
-	background-color: #f4f4f4;
-	outline: none;
+  color: #333;
+  background-color: #f4f4f4;
+  outline: none;
 }
 
 button:active {
-	background-color: #ddd;
+  background-color: #ddd;
 }
 
 button:focus {
-	border-color: #666;
+  border-color: #666;
 }
-*/
+
+
+.home-page .banner {
+ background:#5cb85c;
+ box-shadow:inset 0 8px 8px -8px rgba(0,0,0,.3),inset 0 -8px 8px -8px rgba(0,0,0,.3)
+}
+.home-page .banner p {
+ color:#fff;
+ text-align:center;
+ font-size:1.5rem;
+ font-weight:300!important;
+ margin-bottom:0
+}
+.home-page .banner h1 {
+ text-shadow:0 1px 3px rgba(0,0,0,.3);
+ font-weight:700!important;
+ text-align:center;
+ font-size:3.5rem;
+ padding-bottom:.5rem
+}
+.home-page .feed-toggle {
+ margin-bottom:-1px
+}
+.home-page .sidebar {
+ padding:5px 10px 10px;
+ background:#f3f3f3;
+ border-radius:4px
+}
+.home-page .sidebar p {
+ margin-bottom:.2rem
+}
+
+:root{
+  --m-white: #F5F6F7;
+  --m-grey: #A6BBC7;
+  --m-orange: #CF6447;
+  --m-tan: #AC8C71;
+  --m-purple: #353C6B;
+  --m-black: #23242E;
+}

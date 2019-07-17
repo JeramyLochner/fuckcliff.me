@@ -1,43 +1,38 @@
 <script>
-	export let segment;
+  export let segment;
 </script>
 
 <style>
-	/*Title CSS*/
-	.title-image {
-		background-image: url('logoW.png'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("background1-min.jpg");
-		height: 100%;
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-size: auto,  cover, cover, cover;
-	}
+  .title-container{
+    position: center;
+  }
 
+  #logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
-	/*Quote*/
-	.green-container {
-		background-color: #19974a;
-		color: white;
-		padding: 20px;
-		color: white;
-	}
+  #title-image{
+      opacity: 0.8;
+      filter: brightness(50%);
+      padding: 0;
+      display: block;
+      margin: 0 auto;
+      max-height: 100%;
+      max-width: 100%;
+  }
 </style>
 
 <svelte:head>
-	<title>Fuck Cliff - Go Fuck Yourself</title>
+  <title>Fuck Cliff</title>
 </svelte:head>
 
-<!-- Header/Title -->
-<div class="title-image"></div> 
+<div class="title-container">
+  <img src="background1-min.jpg" id="title-image" alt="Gussy">
+  <img src="logoW.png" id="logo" alt="Fuck Cliff">
+</div>  
 
-<!-- Quote -->
-<div class="green-container">
-	<div class="w3-panel w3-leftbar">
-		<p><i class="fa fa-quote-right w3-xxlarge"></i><br>
-		<i class="w3-serif w3-xlarge">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non massa vitae risus fermentum ullamcorper. Phasellus risus urna, ornare in aliquam id, porttitor sit amet sapien. Nulla facilisi.</i></p>
-		<p>Nietsie Trebla</p>
-  </div>
-</div>	
-
-
+<p>copyright</p>
+<p>contact us</p>
