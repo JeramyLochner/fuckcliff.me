@@ -1,2 +1,0 @@
-# fuckcliff.me
-:)
